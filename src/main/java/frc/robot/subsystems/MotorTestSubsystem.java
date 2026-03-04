@@ -12,9 +12,8 @@ import frc.robot.Constants.MotorTestConstants;
 
 public class MotorTestSubsystem extends SubsystemBase {
   private final SparkMax motor = 
-    new SparkMax(MotorTestConstants.kMotorCanId, SparkLowLevel.MotorType.kBrushless);
+    new SparkMax(MotorTestConstants.MotorTurnFR, SparkLowLevel.MotorType.kBrushless);
   public MotorTestSubsystem() {
-
   }
 
   public void setSpeed(double speed) {

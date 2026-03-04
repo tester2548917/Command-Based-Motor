@@ -18,7 +18,10 @@ public final class Constants {
   }
 
   public static final class MotorTestConstants {
-    public static final int kMotorCanId = 10;
-    public static final double kMaxOutput = 0.4;
+    public static final int MotorTurnFR = 4;
+
+    public static final double kMaxOutput = 0.8;
   }
 }
+
+

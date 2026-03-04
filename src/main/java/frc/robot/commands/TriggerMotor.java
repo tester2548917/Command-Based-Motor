@@ -29,6 +29,8 @@ public class TriggerMotor extends Command {
       m_subsystem = subsystem;
       m_trigger = trigger;
       m_maxOutput = maxOutput;
+
+      addRequirements(subsystem);
     }
 
 
